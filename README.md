@@ -9,11 +9,11 @@ y validacion cruzada estratificada.
 
 - [x] Fase 1 - Auditoria del dataset (`src/data/audit_dataset.py`)
 - [x] Fase 2 - Division train/val/test consciente de grupos (`src/data/splits.py`)
-- [ ] Fase 3 - Preprocesado de imagenes y JSON final de entrenamiento
-- [ ] Fase 4 - Arquitectura del clasificador sobre Qwen3-VL-2B
-- [ ] Fase 5 - Bucle de entrenamiento (LoRA + early stopping)
-- [ ] Fase 6 - Busqueda de hiperparametros (Optuna + K-fold)
-- [ ] Fase 7 - Reentrenamiento final y evaluacion sobre test
+- [x] Fase 3 - Preprocesado de imagenes y JSON final de entrenamiento
+- [x] Fase 4 - Arquitectura del clasificador sobre Qwen3-VL-2B
+- [x] Fase 5 - Bucle de entrenamiento (LoRA + early stopping)
+- [x] Fase 6 - Busqueda de hiperparametros (Optuna + K-fold)
+- [x] Fase 7 - Reentrenamiento final y evaluacion sobre test
 - [x] Fase 8 - Analisis de errores (`src/evaluation/error_analysis.py`)
 - [x] Fase 9 - Script de inferencia (`src/inference/predict.py`). El
       veredicto sale SIEMPRE de classify_image() (cabezal sobre
