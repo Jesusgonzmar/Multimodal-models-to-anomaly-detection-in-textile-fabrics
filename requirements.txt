@@ -1,0 +1,17 @@
+# Fase 1-2: auditoria y division del dataset
+pandas>=2.0
+scikit-learn>=1.1        # StratifiedGroupKFold requiere >=1.1
+pillow>=10.0
+imagehash>=4.3
+tqdm>=4.60
+
+# Validacion de prompt / Fase 4 en adelante
+transformers>=4.57      # Qwen3-VL requiere una version reciente
+accelerate>=0.30
+peft>=0.19
+
+# Fase 6
+optuna>=4.0
+
+# torch NO se fija aqui: Colab ya trae la version correcta preinstalada
+# para su GPU; instalar torch por pip encima puede romper la compatibilidad CUDA
